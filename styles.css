@@ -1,0 +1,173 @@
+p, h2, h3{
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  color:grey;
+}
+h1{
+  font-family:'Pacifico', cursive;
+  font-size: 3rem;
+}
+
+header{
+  height:500px;
+  width:100%;
+  margin-top: 30px;
+  border-top: solid 5px;
+  border-color: #41f279;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:left;
+  background-image:url(https://unsplash.it/768/1024);
+  color: white;
+}
+.headDot{
+  color: #41f279;
+}
+.headWrap{
+  margin-left:200px;
+}
+
+.osButtons{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width:75%;
+  align-items: flex-start;
+  -webkit-padding-start:0;
+}
+
+.osButton{
+  display:flex;
+  justify-content: center;
+  color:white;
+  align-items:center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.7rem;
+  height:50px;
+  width:50px;
+  border-radius:50%;
+}
+
+.osButton:hover{
+  background-color:#41f279;
+}
+
+.bigButtons{
+list-style:none;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.bigButton{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  width:25%;
+  text-align:center;
+}
+.bigButton i{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  border-radius:50%;
+  color:white;
+  background-color:#41f279;
+  width:90px;
+  height:90px;
+}
+
+.signupBox{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background:#e5e5e5;
+  height:400px;
+
+}
+
+form{
+  border:none;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+}
+button{
+  background:#41f279;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  border:none;
+  font-size: 1.5rem;
+padding-top:2%;
+padding-bottom:2%;
+  padding-left:7%;
+  padding-right: 7%;
+  border-top-right-radius:10px ;
+  border-bottom-right-radius:10px;
+  margin-left: 0;
+}
+
+input{
+  border:none;
+  font-size:2rem;
+  margin-right:0;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  color:grey;
+  width:90%;
+}
+.quote{
+  font-style: italic;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.signup{
+  width:30%;
+}
+
+.employees{
+  list-style:none;
+  display:flex;
+  flex-direction: row;
+
+}
+.employees li{
+  padding:2px;
+}
+
+.contact{
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socialButtons{
+  width: 25%;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+footer{
+  background:#e5e5e5;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+}
